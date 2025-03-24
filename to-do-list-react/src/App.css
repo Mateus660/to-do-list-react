@@ -1,0 +1,46 @@
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;   
+}
+
+body {
+    background-color: white;
+
+}
+
+#adtarefa {
+    top: 20%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    height: 100px;
+}
+
+#colocar-tarefa {
+    background-color: white;
+    margin-right: 10px;
+    height: 30px;
+    width: 300px;
+}
+
+#adicionar {
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    border-color: white;
+}
+
+#listatarefa {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: black;
+    border-color: black;
+    border-style: solid;
+    width: 70%;
+    height: 50%;
+}
