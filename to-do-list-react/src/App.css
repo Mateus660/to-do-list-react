@@ -1,46 +1,52 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
-* {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;   
-}
+    body, html {
+        background-color: #121212; /* Preto suave */
+        color: #E0E0E0; /* Texto claro para contraste */
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
 
-body {
-    background-color: white;
+    #area-input {
+        text-align: center;
+        margin-top: 20px;
+    }
 
-}
+    #inserir-tarefa {
+        width: 80%;
+        padding: 2px;
+        border-radius: 2px;
+        background-color: transparent;
+        color: black;
+        margin-right: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+    }
 
-#adtarefa {
-    top: 20%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    height: 100px;
-}
+    #adicionar {
+        background-color: green;
+        color: white;
+        padding: 6px;
+    }
 
-#colocar-tarefa {
-    background-color: white;
-    margin-right: 10px;
-    height: 30px;
-    width: 300px;
-}
-
-#adicionar {
-    width: 100px;
-    height: 40px;
-    background-color: green;
-    border-color: white;
-}
-
-#listatarefa {
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    color: black;
-    border-color: black;
-    border-style: solid;
-    width: 70%;
-    height: 50%;
-}
+    #lista-tarefas {
+        margin: 20px auto;
+        width: 50%;
+        text-align: center;
+    }
+    
+    #titulo {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    
+    
